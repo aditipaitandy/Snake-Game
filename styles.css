@@ -37,6 +37,7 @@ body {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top:100px;
 }
 
 canvas {
@@ -131,4 +132,72 @@ footer {
     width: 300px;
     height: 300px;
   }
+  footer {
+    padding: 15px 0;
+    font-size: 12px;
+  }
+
+  footer .made-with {
+    font-size: 14px;
+  }
+
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .social-icons {
+    gap: 10px;
+  }
+
+  .game-title {
+    font-size: 0.5rem;
+    margin-bottom: 15px;
+  }
+}
+
+footer {
+  background-color: rgb(245, 243, 163);
+  width: 100%;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+  text-align: center;
+  border-top: 2px solid #eee;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer .made-with {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+.game-title {
+  font-size: 2rem;
+  color: rgb(15, 5, 59);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  text-align: center;
 }
